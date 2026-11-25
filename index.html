@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="IncluiTrabalho conecta pessoas com deficiência a oportunidades profissionais com informações claras sobre acessibilidade.">
+<title>IncluiTrabalho | Oportunidades para todos</title>
+<style>
+:root{--navy:#102a43;--blue:#1769aa;--blue2:#2487d8;--pale:#edf6ff;--ink:#233447;--muted:#5d7185;--line:#d8e3ed;--white:#fff;--green:#087f6e;--shadow:0 12px 30px rgba(16,42,67,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#f7faff;line-height:1.55}a{color:inherit}button,input,select,textarea{font:inherit}button,a.btn{cursor:pointer}.skip{position:absolute;left:-9999px;top:auto}.skip:focus{left:1rem;top:1rem;background:#fff;padding:1rem;z-index:99}.wrap{width:min(1120px,92%);margin:auto}.topbar{background:var(--navy);color:#fff;font-size:.88rem;padding:.55rem 0}.topbar .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}.nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.navinner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:1rem}.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;font-weight:850;font-size:1.25rem;color:var(--navy);letter-spacing:-.03em}.logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--blue),#54b4f5);display:grid;place-items:center;color:#fff;font-weight:900;font-size:1.3rem}.navlinks{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap}.navlinks a{text-decoration:none;font-size:.94rem;font-weight:650;color:#38536d}.navlinks a:hover,.navlinks a:focus{color:var(--blue);text-decoration:underline}.btn{display:inline-flex;justify-content:center;align-items:center;gap:.45rem;padding:.78rem 1.05rem;border-radius:11px;border:1px solid transparent;text-decoration:none;font-weight:750;transition:.15s}.primary{background:var(--blue);color:white}.primary:hover{background:#10558d}.secondary{background:#fff;border-color:#b7cfe4;color:var(--navy)}.secondary:hover{background:var(--pale)}.hero{padding:4.2rem 0 3.6rem;background:radial-gradient(circle at 85% 15%,#d7ecff 0,transparent 31%),linear-gradient(120deg,#f4f9ff,#e9f4ff)}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:3rem}.eyebrow{display:inline-flex;align-items:center;gap:.5rem;color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:.09em;font-size:.76rem}.hero h1{font-size:clamp(2.3rem,5vw,4rem);line-height:1.07;letter-spacing:-.055em;color:var(--navy);margin:.85rem 0 1.1rem;max-width:700px}.hero h1 span{color:var(--blue)}.hero p{font-size:1.12rem;color:#4d657b;max-width:640px}.actions{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.5rem 0}.trust{display:flex;gap:1rem;flex-wrap:wrap;color:#456179;font-size:.9rem}.hero-card{background:#fff;border:1px solid #d9e9f7;border-radius:24px;padding:1.35rem;box-shadow:var(--shadow);transform:rotate(1deg)}.hero-card h3{margin:.2rem 0 .8rem;color:var(--navy)}.mini-job{border:1px solid var(--line);padding:.85rem;border-radius:14px;margin:.65rem 0;display:flex;gap:.75rem;align-items:center}.mini-icon{width:42px;height:42px;border-radius:12px;background:var(--pale);display:grid;place-items:center;font-size:1.25rem}.mini-job strong{display:block}.mini-job small{color:var(--muted)}.section{padding:4rem 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:1.5rem;margin-bottom:1.5rem}.section-head h2,.section h2{color:var(--navy);font-size:clamp(1.7rem,3vw,2.45rem);letter-spacing:-.04em;line-height:1.15;margin:0 0 .55rem}.section-head p{color:var(--muted);margin:0;max-width:670px}.searchbox{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.15rem;box-shadow:var(--shadow);margin:1.5rem 0 1.3rem}.searchgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;align-items:end}.field{display:flex;flex-direction:column;gap:.35rem}.field label{font-weight:750;font-size:.9rem;color:#304b63}.field input,.field select,.field textarea{width:100%;padding:.8rem .85rem;border:1px solid #bacbd9;border-radius:10px;background:#fff;color:var(--ink);min-height:46px}.field textarea{min-height:110px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus,button:focus-visible,a:focus-visible{outline:3px solid #f5be42;outline-offset:2px}.resultsline{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:1.2rem 0;color:var(--muted);font-size:.93rem}.jobs{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.job{background:#fff;border:1px solid var(--line);border-radius:17px;padding:1.2rem;display:flex;flex-direction:column;box-shadow:0 5px 18px rgba(16,42,67,.035)}.jobtop{display:flex;align-items:start;gap:.8rem}.companyicon{flex:0 0 45px;width:45px;height:45px;display:grid;place-items:center;border-radius:13px;background:var(--pale);color:var(--blue);font-weight:850;font-size:1.1rem}.job h3{margin:0;color:var(--navy);font-size:1.08rem}.job .company{color:var(--muted);font-size:.9rem}.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:.9rem 0}.tag{font-size:.78rem;font-weight:700;border-radius:100px;padding:.3rem .58rem;background:#eef4f8;color:#39556d}.tag.access{background:#e4f7f1;color:#086b5c}.job p{font-size:.91rem;color:#536b80;margin:.3rem 0 1rem}.jobfoot{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:auto;padding-top:.8rem}.jobfoot .btn{font-size:.88rem;padding:.65rem .75rem;flex:1}.empty{grid-column:1/-1;text-align:center;padding:2.5rem;border:1px dashed #a8bfd1;border-radius:16px;color:var(--muted);background:#fff}.notice{border-left:4px solid #e4a11b;background:#fff8e6;padding:.8rem 1rem;border-radius:0 10px 10px 0;color:#604a1b;font-size:.88rem;margin-top:1.2rem}.features{background:#fff}.featuregrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem}.feature{padding:1.3rem;border:1px solid var(--line);border-radius:16px;background:#fbfdff}.featureicon{width:44px;height:44px;border-radius:13px;background:var(--pale);display:grid;place-items:center;font-size:1.3rem}.feature h3{color:var(--navy);margin:.8rem 0 .4rem}.feature p{color:var(--muted);font-size:.95rem;margin:0}.split{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}.panel{background:#fff;border:1px solid var(--line);border-radius:19px;padding:1.5rem;box-shadow:0 5px 18px rgba(16,42,67,.035)}.panel h3{margin:.2rem 0 .5rem;color:var(--navy);font-size:1.3rem}.panel>p{color:var(--muted)}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}.full{grid-column:1/-1}.checkrow{display:flex;align-items:flex-start;gap:.6rem;color:#4b6277;font-size:.91rem}.checkrow input{margin-top:.3rem;min-width:18px;min-height:18px}.status{display:none;padding:.85rem 1rem;margin-top:1rem;border-radius:10px;background:#e6f8f0;color:#075e4e;font-weight:650}.status.show{display:block}.about{background:linear-gradient(120deg,#edf6ff,#f7fbff)}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}.statbox{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:1rem}.stat strong{display:block;color:var(--blue);font-size:1.45rem}.stat span{color:var(--muted);font-size:.88rem}.footer{background:var(--navy);color:#dbe8f3;padding:2.3rem 0}.footergrid{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap}.footer .brand{color:#fff}.footer p{max-width:580px;color:#b8cad9;font-size:.9rem}.footer a{color:#fff}.smallprint{font-size:.8rem;color:#b8cad9}.modal{display:none;position:fixed;inset:0;background:rgba(7,24,39,.58);z-index:30;padding:1rem;overflow:auto}.modal.open{display:grid;place-items:center}.modalbox{background:#fff;border-radius:18px;padding:1.5rem;max-width:600px;width:100%;max-height:90vh;overflow:auto;box-shadow:0 25px 70px rgba(0,0,0,.2)}.modalhead{display:flex;justify-content:space-between;gap:1rem;align-items:start}.close{border:1px solid var(--line);background:#fff;border-radius:8px;padding:.35rem .6rem;font-size:1.2rem}.modalbox h2{color:var(--navy);margin:.2rem 0}.modalbox p{color:var(--muted)}.hidden{display:none!important}
+@media(max-width:850px){.hero-grid,.aboutgrid{grid-template-columns:1fr}.hero-card{max-width:540px;transform:none}.searchgrid{grid-template-columns:1fr 1fr}.jobs{grid-template-columns:repeat(2,1fr)}.featuregrid{grid-template-columns:1fr 1fr}.navinner{padding:.7rem 0;align-items:flex-start;flex-direction:column}.navlinks{gap:.8rem}}
+@media(max-width:560px){.hero{padding:3rem 0}.searchgrid,.jobs,.featuregrid,.split,.formgrid{grid-template-columns:1fr}.section{padding:3rem 0}.section-head{display:block}.section-head .btn{margin-top:1rem}.topbar .wrap{font-size:.78rem}.navlinks{font-size:.9rem}.navlinks a{font-size:.86rem}.full{grid-column:auto}.resultsline{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+html{font-size:var(--fs,100%)}
+.a11y{display:flex;gap:.35rem;align-items:center;flex-wrap:wrap}.a11y button{background:transparent;color:#fff;border:1px solid #8fb2d1;border-radius:7px;padding:.2rem .55rem;font-size:.82rem}.a11y button:hover{background:rgba(255,255,255,.15)}.a11y button[aria-pressed=true]{background:#fff;color:var(--navy);font-weight:700}
+.nav{box-shadow:0 2px 12px rgba(16,42,67,.05)}.navlinks a:not(.btn){text-decoration:none;font-weight:650;color:var(--navy);padding:.3rem .2rem}.navlinks a:not(.btn):hover{color:var(--blue);text-decoration:underline}
+.job{transition:transform .2s,box-shadow .2s}.job:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.jobfoot .btn[aria-pressed=true]{background:#fff0f3;border-color:#d9486a;color:#a3173a}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:.85rem 1rem;margin-bottom:.6rem}.faq summary{cursor:pointer;font-weight:750;color:var(--navy)}.faq details p{margin:.6rem 0 0;color:var(--muted);font-size:.95rem}
+.quotes{display:grid;gap:.8rem;align-content:start}.quote{margin:0;background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:14px;padding:1rem 1.1rem}.quote p{margin:0 0 .5rem}.quote figcaption{font-size:.84rem;color:var(--muted)}.col h3{color:var(--navy);margin:0 0 .8rem}
+body.hc{--navy:#000;--blue:#0031a8;--ink:#000;--muted:#1a1a1a;--line:#000;--pale:#fff;background:#fff}body.hc .hero,body.hc .about,body.hc .features{background:#fff}body.hc .tag,body.hc .tag.access{background:#fff;color:#000;border:1px solid #000}body.hc .secondary{border-color:#000;color:#000}body.hc .job,body.hc .panel,body.hc .feature,body.hc .searchbox,body.hc .quote,body.hc .faq details{border:2px solid #000}body.hc a:not(.btn){text-decoration:underline}body.hc .footer p,body.hc .smallprint{color:#fff}body.hc .notice{background:#fff;border:2px solid #000}
+body.nomotion *{transition:none!important;animation:none!important}body.nomotion .job:hover{transform:none}
+.wrap{width:min(1120px,90%)}body{line-height:1.65}.section{padding:5rem 0}.hero{padding:5rem 0 4.5rem}.hero-grid{gap:3.5rem}.section-head{margin-bottom:2rem}.searchbox{padding:1.7rem;margin:0}.jobs{gap:1.4rem}.job{padding:1.5rem}.panel{padding:2rem}.split{gap:1.75rem}.formgrid{gap:1.1rem}.featuregrid{gap:1.4rem}.aboutgrid{gap:3rem}.tags{margin:1rem 0}
+.navlinks{display:flex;align-items:center;gap:1.1rem;flex-wrap:wrap}.actions{gap:1rem;margin:2rem 0}.actions .btn{padding:.95rem 1.5rem;font-size:1.02rem}
+.chips{border:0;padding:0;margin:1.5rem 0 0;min-width:0}.chips legend{font-weight:750;font-size:.9rem;color:#304b63;margin-bottom:.7rem;padding:0}.chip{display:inline-flex;position:relative;margin:0 .5rem .55rem 0}.chip input{position:absolute;opacity:0;inset:0;cursor:pointer}.chip span{border:1px solid #b7cfe4;background:#fff;border-radius:100px;padding:.45rem .9rem;font-size:.88rem;font-weight:650;color:var(--navy);transition:.15s}.chip span:hover{background:var(--pale)}.chip input:checked+span{background:var(--blue);border-color:var(--blue);color:#fff}.chip input:focus-visible+span{outline:3px solid #f5be42;outline-offset:2px}
+.searchfoot{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--line)}.row{display:flex;gap:.6rem;flex-wrap:wrap}#count{color:var(--muted);font-weight:650}.results{background:#fff;border-top:1px solid var(--line)}.tag.hit{background:#087f6e;color:#fff}
+body.hc .chip span{border:2px solid #000;color:#000}body.hc .chip input:checked+span,body.hc .tag.hit{background:#000;color:#fff}
+@media(max-width:560px){.section{padding:3.5rem 0}.hero{padding:3rem 0}.searchbox{padding:1.2rem}.panel{padding:1.3rem}}
+.finale .modalbox{max-width:680px;text-align:center;background:linear-gradient(160deg,#102a43,#1769aa);padding:2.5rem 2rem}.finale .modalhead{justify-content:flex-end;position:absolute;right:1.2rem;top:1.2rem}.finale .modalbox{position:relative}.finale .close{background:transparent;color:#fff;border-color:#8fb2d1}.finale .eyebrow{color:#9fd0ff}
+.finale .modalbox h2{color:#fff;font-size:clamp(1.9rem,5vw,2.8rem);margin:.6rem 0 1rem;letter-spacing:-.04em}.finale .modalbox p{color:#dbe8f3}.finale ul{list-style:none;padding:0;margin:1.6rem auto;max-width:430px;text-align:left}.finale li{padding:.5rem 0;color:#fff;border-bottom:1px solid rgba(255,255,255,.18);animation:fin .5s both;animation-delay:calc(var(--i)*.3s)}.finale li::before{content:"✓";color:#7be0c3;font-weight:800;margin-right:.6rem}.finale .thanks{font-size:1.25rem;font-weight:800;color:#fff!important;margin:1.5rem 0 .3rem}.finale .btn{margin-top:1.2rem;background:#fff;color:var(--navy)}
+@keyframes fin{from{opacity:0;transform:translateY(8px)}}.confetti{position:fixed;top:-14px;width:9px;height:14px;border-radius:2px;z-index:40;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+@media(prefers-reduced-motion:reduce){.finale li,.fcredits div{animation:none}.confetti{display:none}}
+.fcred{max-width:340px}.fcred ul{list-style:none;padding:0;margin:.6rem 0 0}.fcred li{font-size:.9rem;color:#b8cad9;padding:.15rem 0}.fcred li strong{color:#fff}
+.finale h3{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:#9fd0ff;margin:1.8rem 0 .6rem}.fcredits{display:grid;grid-template-columns:1fr 1fr;gap:.8rem 1.5rem;margin:0 auto 1rem;max-width:480px;text-align:left}.fcredits div{display:flex;flex-direction:column;animation:fin .5s both;animation-delay:calc(var(--i)*.3s)}.fcredits strong{color:#fff}.fcredits span{color:#b8cad9;font-size:.88rem}
+@media(max-width:560px){.fcredits{grid-template-columns:1fr}}
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}.nav{top:env(safe-area-inset-top,0px)}body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:#f7faff}
+html.dark{color-scheme:dark;--navy:#eaf2fa;--blue:#6ab7f5;--pale:#1c3248;--ink:#d5e0ea;--muted:#9fb3c6;--line:#2a3f53;--shadow:0 12px 30px rgba(0,0,0,.35)}
+.dark body{background:#0f1b27}.dark body::before{background:#0f1b27}.dark ::placeholder{color:#7f95a8}
+.dark .nav,.dark .hero-card,.dark .searchbox,.dark .job,.dark .empty,.dark .panel,.dark .stat,.dark .quote,.dark .faq details,.dark .feature,.dark .modal:not(.finale) .modalbox{background:#162636}
+.dark .features,.dark .results{background:#12212f}.dark .hero{background:radial-gradient(circle at 85% 15%,#1a3a57 0,transparent 31%),linear-gradient(120deg,#0f1b27,#12263a)}.dark .about{background:linear-gradient(120deg,#12212f,#0f1b27)}
+.dark .topbar,.dark .footer{background:#0a1520}.dark .skip:focus{background:#162636}
+.dark .field input,.dark .field select,.dark .field textarea{background:#0f1b27;color:var(--ink);border-color:#3a5269}
+.dark .secondary{background:#1c3248;border-color:#3a5269;color:var(--navy)}.dark .secondary:hover{background:#244159}.dark .primary{background:#1d6fb8}.dark .primary:hover{background:#2487d8}
+.dark .a11y button[aria-pressed=true],.dark .finale .btn{background:#fff;color:#102a43}
+.dark .hero p,.dark .trust,.dark .checkrow,.dark .field label,.dark .chips legend,.dark .job strong{color:#b9cbdc!important}.dark .job p{color:#9fb3c6}
+.dark .tag{background:#21384d;color:#c5d6e6}.dark .tag.access{background:#10372f;color:#7be0c3}.dark .tag.hit{background:#087f6e;color:#fff}
+.dark .notice{background:#2a2312;color:#e6cf9a}.dark .status{background:#0f3329;color:#9fe8cf}.dark .modal:not(.finale) .close{background:#1c3248;color:var(--ink)}
+.dark .chip span{background:#162636;border-color:#3a5269;color:var(--ink)}.dark .chip span:hover{background:#1c3248}.dark .chip input:checked+span{background:#1d6fb8;border-color:#1d6fb8;color:#fff}
+.dark .jobfoot .btn[aria-pressed=true]{background:#3a1a25;border-color:#d9486a;color:#ffb3c4}.dark .navlinks a:not(.btn){color:var(--ink)}
+.dark body.hc{--navy:#fff;--blue:#8fd0ff;--ink:#fff;--muted:#e8e8e8;--line:#fff;--pale:#000;background:#000}.dark body.hc :is(.hero,.about,.features,.results,.nav){background:#000}
+.dark body.hc :is(.job,.panel,.feature,.searchbox,.quote,.faq details,.notice){background:#000;border-color:#fff}.dark body.hc :is(.tag,.tag.access,.secondary,.chip span){background:#000;color:#fff;border-color:#fff}.dark body.hc :is(.chip input:checked+span,.tag.hit){background:#fff;color:#000}
+.navlinks a.btn.primary,.navlinks a.btn.primary:hover{color:#fff;text-decoration:none}.navlinks a.btn.secondary:hover{text-decoration:none}
+</style>
+<script>try{var t=JSON.parse(localStorage.getItem("it_th"));if(t===null?matchMedia("(prefers-color-scheme: dark)").matches:t)document.documentElement.classList.add("dark")}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo principal</a>
+<div class="topbar"><div class="wrap"><span>Inclusão profissional começa com oportunidades acessíveis.</span><span>Projeto escolar demonstrativo • MVP</span>
+<div class="a11y" role="group" aria-label="Opções de acessibilidade"><button id="fsDown" type="button" aria-label="Diminuir tamanho do texto">A−</button><button id="fsUp" type="button" aria-label="Aumentar tamanho do texto">A+</button><button id="thBtn" type="button" aria-pressed="false">Tema escuro</button><button id="hcBtn" type="button" aria-pressed="false">Alto contraste</button><button id="nmBtn" type="button" aria-pressed="false">Reduzir animações</button></div></div></div>
+<header class="nav">
+  <div class="wrap navinner">
+    <a class="brand" href="#inicio" aria-label="IncluiTrabalho, página inicial"><span class="logo" aria-hidden="true">I+</span> IncluiTrabalho</a>
+    <nav class="navlinks" aria-label="Navegação principal">
+      <a href="#busca">Buscar vagas</a><a href="#candidatos">Candidatos</a><a href="#empresas">Empresas</a><a href="#faq">Perguntas</a><a href="#sobre">Sobre</a>
+      <a class="btn primary js-start" href="#busca">Começar jornada</a><button class="btn secondary js-login" type="button">Fazer login</button>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+<section class="hero" id="inicio"><div class="wrap hero-grid">
+  <div><span class="eyebrow">● Talento não tem barreiras</span>
+    <h1>Seu talento merece <span>oportunidades.</span></h1>
+    <p>Uma proposta de plataforma para aproximar pessoas com deficiência de empresas comprometidas com um ambiente de trabalho mais inclusivo e acessível.</p>
+    <div class="actions"><a class="btn primary js-start" href="#busca">Começar jornada →</a><button class="btn secondary js-login" type="button">Fazer login</button></div>
+    <div class="trust"><span>✓ Foco nas habilidades</span><span>✓ Acessibilidade transparente</span><span>✓ Inclusão com respeito</span></div>
+  </div>
+  <aside class="hero-card" aria-label="Exemplo de oportunidade">
+    <span class="eyebrow">Exemplo de oportunidade</span><h3>Encontre uma vaga que combine com você</h3>
+    <div class="mini-job"><div class="mini-icon" aria-hidden="true">▦</div><div><strong>Assistente administrativo</strong><small>Modelo de vaga • Híbrido</small></div></div>
+    <div class="mini-job"><div class="mini-icon" aria-hidden="true">⌘</div><div><strong>Atendimento ao cliente</strong><small>Modelo de vaga • Remoto</small></div></div>
+    <div class="mini-job"><div class="mini-icon" aria-hidden="true">↗</div><div><strong>Auxiliar de estoque</strong><small>Modelo de vaga • Presencial</small></div></div>
+    <p class="smallprint">As vagas desta demonstração são fictícias e não representam contratações abertas.</p>
+  </aside>
+</div></section>
+<section class="section" id="busca"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">Busca</span><h2>Monte o filtro do seu perfil</h2><p>Escolha área, modalidade e recursos de acessibilidade. As vagas compatíveis aparecem no fim da página e mudam a cada ajuste.</p></div></div>
+  <div class="searchbox">
+    <div class="searchgrid">
+      <div class="field"><label for="area">Área profissional</label><select id="area"><option value="">Todas as áreas</option></select></div>
+      <div class="field"><label for="cargo">Cargo</label><select id="cargo"><option value="">Todos os cargos</option></select></div>
+      <div class="field"><label for="modelo">Modalidade</label><select id="modelo"><option value="">Todas</option><option>Remoto</option><option>Híbrido</option><option>Presencial</option></select></div>
+      <div class="field hidden" id="otherWrap" style="grid-column:1/-1"><label for="otherQ">Qual cargo você procura?</label><input id="otherQ" type="search" placeholder="Digite o cargo (opcional)"></div>
+    </div>
+    <fieldset class="chips" id="accChips"><legend>Recursos de acessibilidade que você procura</legend></fieldset>
+    <div class="searchfoot"><span id="count" aria-live="polite"></span><div class="row"><button class="btn secondary" type="button" data-clear>Limpar filtros</button><a class="btn primary" id="seeBtn" href="#vagas">Ver vagas ↓</a></div></div>
+  </div>
+</div></section>
+<section class="section features" id="como-funciona"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">Como funciona</span><h2>Inclusão em cada etapa</h2><p>Uma experiência simples, com informações claras e respeito às necessidades de cada pessoa.</p></div></div>
+  <div class="featuregrid">
+    <article class="feature"><div class="featureicon" aria-hidden="true">⌕</div><h3>Busca mais clara</h3><p>Encontre oportunidades por área, cargo e modalidade de trabalho.</p></article>
+    <article class="feature"><div class="featureicon" aria-hidden="true">♿</div><h3>Acessibilidade informada</h3><p>Consulte os recursos descritos em cada vaga, como acessibilidade física ou digital.</p></article>
+    <article class="feature"><div class="featureicon" aria-hidden="true">♡</div><h3>Valorização de talentos</h3><p>Competências, experiências e potencial profissional devem orientar a seleção.</p></article>
+  </div>
+</div></section>
+<section class="section" id="candidatos"><div class="wrap split">
+  <div class="panel"><span class="eyebrow">Para candidatos</span><h3>Receba orientação para sua busca</h3><p>Preencha o formulário demonstrativo para experimentar o fluxo de interesse. Não informe dados pessoais reais neste protótipo escolar.</p>
+    <form id="candidateForm"><div class="formgrid">
+      <div class="field"><label for="candName">Nome fictício ou primeiro nome</label><input id="candName" name="name" required maxlength="80" placeholder="Como podemos chamar você?"></div>
+      <div class="field"><label for="candEmail">E-mail de demonstração</label><input id="candEmail" name="email" type="email" required placeholder="exemplo@email.com"></div>
+      <div class="field full"><label for="candArea">Área de interesse</label><select id="candArea" name="area" required><option value="">Selecione uma área</option><option>Administrativo</option><option>Atendimento</option><option>Tecnologia</option><option>Logística</option><option>Outra área</option></select></div>
+      <div class="field full"><label for="candNeeds">Recursos de acessibilidade que gostaria de encontrar (opcional)</label><textarea id="candNeeds" name="needs" maxlength="500" placeholder="Ex.: leitor de tela, acesso sem degraus, comunicação em Libras..."></textarea></div>
+      <div class="full"><label class="checkrow"><input type="checkbox" required> Entendo que este é um protótipo escolar e que o formulário não envia meus dados a uma empresa.</label></div>
+      <div class="full"><button class="btn primary" type="submit">Enviar formulário demonstrativo</button></div>
+    </div><div class="status" id="candidateStatus" role="status"></div></form>
+  </div>
+  <div class="panel" id="empresas"><span class="eyebrow">Para empresas</span><h3>Cadastre uma vaga de demonstração</h3><p>Experimente como uma empresa poderia apresentar uma oportunidade com requisitos e informações de acessibilidade.</p>
+    <form id="jobForm"><div class="formgrid">
+      <div class="field"><label for="jobTitle">Cargo</label><select id="jobTitle" name="title" required><option value="">Selecione o cargo</option></select></div>
+      <div class="field"><label for="jobCompany">Nome da empresa</label><input id="jobCompany" name="company" required maxlength="100" placeholder="Ex.: Empresa Modelo"></div>
+      <div class="field"><label for="jobArea">Área profissional</label><select id="jobArea" name="area" required><option value="">Selecione</option><option>Administrativo</option><option>Atendimento</option><option>Tecnologia</option><option>Logística</option></select></div>
+      <div class="field"><label for="jobModel">Modalidade</label><select id="jobModel" name="model" required><option value="">Selecione</option><option>Remoto</option><option>Híbrido</option><option>Presencial</option></select></div>
+      <div class="field full hidden" id="jobOtherWrap"><label for="jobOther">Qual é o cargo?</label><input id="jobOther" maxlength="100" placeholder="Digite o nome do cargo"></div>
+      <fieldset class="full chips" id="jobAccChips" style="margin:0"><legend>Recursos de acessibilidade disponíveis</legend></fieldset>
+      <div class="field full"><label for="jobDesc">Descrição resumida</label><textarea id="jobDesc" name="description" required maxlength="500" placeholder="Descreva as atividades e os requisitos da vaga."></textarea></div>
+      <div class="full"><button class="btn primary" type="submit">Adicionar vaga demonstrativa</button></div>
+    </div><div class="status" id="jobStatus" role="status"></div></form>
+  </div>
+</div></section>
+<section class="section" id="faq"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">Dúvidas e histórias</span><h2>Perguntas frequentes</h2></div></div>
+  <div class="split">
+    <div class="col faq"><h3>Antes de começar</h3>
+      <details><summary>As vagas são reais?</summary><p>Não. Todas as vagas iniciais são fictícias e servem apenas para demonstrar o projeto escolar.</p></details>
+      <details><summary>Preciso informar minha deficiência?</summary><p>Não é obrigatório. Você decide o que compartilhar; o campo de recursos de acessibilidade é opcional.</p></details>
+      <details><summary>Como saber se uma vaga é acessível?</summary><p>Cada vaga lista os recursos informados. Quando aparece “a confirmar”, vale conversar diretamente com a empresa.</p></details>
+      <details><summary>Meus dados ficam salvos?</summary><p>Vagas salvas e cadastradas ficam apenas neste navegador. Nada é enviado a um servidor.</p></details>
+      <details><summary>Posso ajustar o site para ler melhor?</summary><p>Sim. Na barra do topo você aumenta o texto, ativa o alto contraste e reduz animações. A escolha fica lembrada.</p></details>
+    </div>
+    <div class="col"><h3>Histórias de inclusão</h3><div class="quotes">
+      <figure class="quote"><p>Filtrar por recursos de acessibilidade economiza tempo e evita frustração.</p><figcaption>Marina, candidata • depoimento fictício</figcaption></figure>
+      <figure class="quote"><p>Informar o que já oferecemos nos ajuda a ver o que ainda falta melhorar.</p><figcaption>Rogério, RH de empresa • depoimento fictício</figcaption></figure>
+      <figure class="quote"><p>Gostei de ver o foco nas minhas habilidades antes de qualquer outra coisa.</p><figcaption>Camila, estudante • depoimento fictício</figcaption></figure>
+    </div></div>
+  </div>
+</div></section>
+<section class="section about" id="sobre"><div class="wrap aboutgrid">
+  <div><span class="eyebrow">Sobre o projeto</span><h2>Um mercado de trabalho com mais possibilidades para todos</h2><p>O IncluiTrabalho é um projeto multidisciplinar escolar que propõe facilitar o encontro entre pessoas com deficiência e oportunidades profissionais, destacando a importância da acessibilidade e da avaliação justa das competências.</p><p>Nosso diferencial é dar visibilidade às informações de acessibilidade junto às vagas, ajudando candidatos a avaliar se a oportunidade combina com seu perfil e suas necessidades.</p><a class="btn secondary" href="#como-funciona">Conheça a proposta</a></div>
+  <div class="statbox"><div class="stat"><strong>01</strong><span>Busca por área e modalidade</span></div><div class="stat"><strong>02</strong><span>Informações de acessibilidade</span></div><div class="stat"><strong>03</strong><span>Orientação para candidatos</span></div><div class="stat"><strong>04</strong><span>Divulgação para empresas</span></div></div>
+</div></section>
+<section class="section results" id="vagas"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">Oportunidades</span><h2>Vagas para o seu perfil</h2><p id="summary"></p></div><div class="row"><button class="btn secondary" id="savedBtn" type="button" aria-pressed="false">♡ Vagas salvas (0)</button><button class="btn secondary" type="button" data-clear>Limpar filtros</button></div></div>
+  <div class="jobs" id="jobs" aria-live="polite"></div>
+  <div class="notice"><strong>Transparência:</strong> as vagas iniciais são fictícias, criadas para demonstrar o projeto escolar. Em uma versão real, as informações de acessibilidade precisariam ser confirmadas pelas empresas.</div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footergrid"><div><a class="brand" href="#inicio"><span class="logo" aria-hidden="true">I+</span> IncluiTrabalho</a><p>Projeto escolar demonstrativo para promover reflexão, acessibilidade e inclusão de pessoas com deficiência no mercado de trabalho.</p></div><div><strong>Explore</strong><p><a href="#busca">Buscar vagas</a><br><a href="#candidatos">Área do candidato</a><br><a href="#empresas">Área da empresa</a></p></div><div class="fcred"><strong>Créditos</strong><ul id="creditsFooter"></ul></div><div class="smallprint">MVP escolar • Versão demonstrativa<br>Este site não representa uma agência de emprego real.</div></div></footer>
+<div class="modal" id="applyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modalbox"><div class="modalhead"><div><span class="eyebrow">Detalhes da oportunidade</span><h2 id="modalTitle">Vaga</h2></div><button class="close" id="closeModal" type="button" aria-label="Fechar detalhes">×</button></div><div id="modalBody"></div><a class="btn primary" href="#candidatos" id="interestLink">Tenho interesse nesta vaga</a></div></div>
+<div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle"><div class="modalbox"><div class="modalhead"><div><span class="eyebrow">Acesso demonstrativo</span><h2 id="loginTitle">Fazer login</h2></div><button class="close" type="button" aria-label="Fechar login">×</button></div>
+<form id="loginForm"><div class="formgrid"><div class="field full"><label for="loginEmail">E-mail</label><input id="loginEmail" type="text" inputmode="email" autocapitalize="none" autocorrect="off" spellcheck="false" required autocomplete="username"></div><div class="field full"><label for="loginPass">Senha</label><input id="loginPass" type="password" autocapitalize="none" required autocomplete="current-password"></div><div class="full"><button class="btn primary" type="submit" style="width:100%">Entrar</button></div></div><div class="status" id="loginStatus" role="status"></div></form>
+<p style="font-size:.85rem">Protótipo escolar: nenhum login real é feito e nenhuma senha é enviada ou salva.</p></div></div>
+<div class="modal finale" id="finale" role="dialog" aria-modal="true" aria-labelledby="finTitle"><div class="modalbox">
+<div class="modalhead"><button class="close" type="button" aria-label="Fechar">×</button></div>
+<span class="eyebrow">Acesso administrativo</span><h2 id="finTitle">Projeto finalizado ✓</h2>
+<p>O IncluiTrabalho nasceu da ideia de que talento não tem barreiras. Veja o que construímos:</p>
+<ul><li style="--i:1">Busca por área, cargo, modalidade e acessibilidade</li><li style="--i:2">Mais de 50 cargos em 14 áreas profissionais</li><li style="--i:3">Informações de acessibilidade em cada vaga</li><li style="--i:4">Cadastro de vagas para empresas</li><li style="--i:5">Ajustes de texto, contraste e animações</li></ul>
+<p class="thanks">Obrigado a todos que assistiram à nossa apresentação!</p>
+<h3>Créditos</h3><div class="fcredits" id="creditsFinale"></div><p style="font-size:.85rem">IncluiTrabalho • Projeto escolar multidisciplinar</p>
+<button class="btn" id="finBack" type="button">Voltar ao site</button>
+</div></div>
+<script>
+const CREDITS={team:["Gustavo Militão","Agatha Brito","Cesar Amaral","Caroline Marques","Guilherme Henrique"]};
+const AREAS=["Administrativo","Atendimento","Tecnologia","Logística","Saúde","Educação","Vendas e comércio","Finanças e contabilidade","Marketing e comunicação","Design e criação","Recursos humanos","Indústria e produção","Jurídico","Hotelaria e gastronomia"];
+const CARGOS={"Administrativo":["Assistente administrativo","Auxiliar de escritório","Recepcionista","Secretário(a)","Auxiliar de arquivo"],"Atendimento":["Atendente de suporte","Atendente de SAC","Operador de call center","Agente de relacionamento"],"Tecnologia":["Estagiário de tecnologia","Analista de suporte técnico","Desenvolvedor(a)","Analista de dados","Testador de software"],"Logística":["Auxiliar de logística","Estoquista","Conferente","Auxiliar de expedição"],"Saúde":["Técnico de enfermagem","Recepcionista de clínica","Auxiliar de farmácia","Cuidador(a)"],"Educação":["Professor auxiliar","Monitor de biblioteca","Assistente pedagógico","Tutor(a)"],"Vendas e comércio":["Vendedor de loja","Consultor de vendas online","Operador de caixa","Repositor"],"Finanças e contabilidade":["Analista contábil júnior","Auxiliar financeiro","Assistente fiscal"],"Marketing e comunicação":["Redator de conteúdo","Social media","Assistente de marketing"],"Design e criação":["Designer gráfico","Editor de vídeo","Ilustrador(a)"],"Recursos humanos":["Analista de RH","Assistente de recrutamento","Auxiliar de departamento pessoal"],"Indústria e produção":["Operador de produção","Auxiliar de produção","Inspetor de qualidade","Montador"],"Jurídico":["Assistente jurídico","Estagiário de direito","Auxiliar de cartório"],"Hotelaria e gastronomia":["Auxiliar de cozinha","Recepcionista de hotel","Garçom/Garçonete","Camareiro(a)"]};
+const ACC={rampa:"Rampas e elevador",banheiro:"Banheiro adaptado",piso:"Piso tátil e sinalização",posto:"Posto de trabalho adaptado",leitor:"Leitor de tela",libras:"Libras",legenda:"Legendas e transcrição",assist:"Tecnologia assistiva",escrita:"Comunicação escrita",flex:"Horário flexível",sensorial:"Ambiente de baixa estimulação"};
+const J=[
+["Assistente administrativo","Empresa Modelo","Administrativo","Híbrido",["rampa","posto","flex"],"Apoio a documentos, arquivos e planilhas. Informática básica e organização."],
+["Atendente de suporte","Conecta Serviços","Atendimento","Remoto",["leitor","escrita","flex"],"Atendimento por chat e e-mail e registro de solicitações. Boa escrita."],
+["Auxiliar de logística","Operação Exemplo","Logística","Presencial",["rampa","piso","posto"],"Conferência de materiais e controle de estoque, com tarefas adaptadas."],
+["Estagiário de tecnologia","Nuvem Aberta","Tecnologia","Remoto",["leitor","assist","legenda"],"Testes de sistemas e documentação. Vontade de aprender."],
+["Técnico de enfermagem","Clínica Vida","Saúde","Presencial",["rampa","banheiro","posto"],"Cuidado e acompanhamento de pacientes em equipe multiprofissional."],
+["Recepcionista de clínica","Clínica Vida","Saúde","Presencial",["libras","rampa","banheiro"],"Recepção, agendamentos e orientação a pacientes."],
+["Professor auxiliar","Escola Aprender","Educação","Híbrido",["libras","legenda","flex"],"Apoio a turmas, materiais didáticos e atividades em sala."],
+["Monitor de biblioteca","Instituto Leitura","Educação","Presencial",["piso","rampa","sensorial"],"Organização do acervo e atendimento a leitores."],
+["Vendedor de loja","Loja Central","Vendas e comércio","Presencial",["rampa","libras","posto"],"Atendimento no salão, reposição e apoio ao caixa."],
+["Consultor de vendas online","Mercado Aberto","Vendas e comércio","Remoto",["leitor","escrita","flex"],"Contato com clientes por canais digitais e acompanhamento de pedidos."],
+["Analista contábil júnior","Contábil Exemplo","Finanças e contabilidade","Híbrido",["leitor","assist","flex"],"Lançamentos, conciliações e apoio a relatórios mensais."],
+["Redator de conteúdo","Pauta Viva","Marketing e comunicação","Remoto",["leitor","legenda","flex","sensorial"],"Textos para site e redes sociais, com revisão em equipe."],
+["Designer gráfico","Estúdio Traço","Design e criação","Remoto",["assist","flex","escrita"],"Peças digitais e identidade visual para clientes variados."],
+["Analista de RH","Pessoas & Cia","Recursos humanos","Híbrido",["libras","legenda","rampa"],"Apoio a recrutamento, integração e rotinas de pessoal."],
+["Operador de produção","Fábrica Modelo","Indústria e produção","Presencial",["piso","posto","rampa"],"Operação de linha com treinamento e postos adaptados."],
+["Assistente jurídico","Escritório Justa Causa","Jurídico","Híbrido",["leitor","assist","rampa"],"Organização de processos, prazos e documentos."],
+["Auxiliar de cozinha","Sabor Inclusivo","Hotelaria e gastronomia","Presencial",["posto","banheiro","sensorial"],"Preparo de ingredientes e organização da cozinha."],
+["Recepcionista de hotel","Hotel Horizonte","Hotelaria e gastronomia","Presencial",["libras","rampa","banheiro","escrita"],"Check-in, reservas e atendimento a hóspedes."],
+["Recepcionista","Grupo Acolher","Administrativo","Presencial",["rampa","libras","banheiro"],"Recepção de visitantes e controle de agenda."],
+["Operador de caixa","Mercado Bom Preço","Vendas e comércio","Presencial",["posto","rampa","sensorial"],"Atendimento no caixa e conferência de valores."],
+["Estoquista","Depósito Central","Logística","Presencial",["rampa","posto","piso"],"Organização e reposição de estoque."],
+["Analista de suporte técnico","Rede Digital","Tecnologia","Remoto",["leitor","assist","flex"],"Suporte a usuários e resolução de chamados."],
+["Auxiliar de farmácia","Farma Cuidado","Saúde","Presencial",["rampa","banheiro","posto"],"Organização de medicamentos e apoio no balcão."],
+["Editor de vídeo","Estúdio Traço","Design e criação","Remoto",["legenda","assist","flex"],"Edição de vídeos curtos para redes sociais."],
+["Auxiliar financeiro","Contábil Exemplo","Finanças e contabilidade","Presencial",["rampa","posto","escrita"],"Contas a pagar e receber e conferência de notas."],
+["Garçom/Garçonete","Sabor Inclusivo","Hotelaria e gastronomia","Presencial",["libras","posto","escrita"],"Atendimento a mesas com cardápio acessível."]
+];
+const $=id=>document.getElementById(id);
+const store={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const jobsData=J.map((j,i)=>({id:i+1,title:j[0],cargo:j[0],company:j[1],area:j[2],model:j[3],access:j[4],desc:j[5],type:"Exemplo fictício"}));
+jobsData.unshift(...store.get('it_jobs',[]));
+const saved=new Set(store.get('it_saved',[]));
+const f={cargo:'',other:'',area:'',model:'',acc:new Set()};
+let onlySaved=false,lastFocus=null,openM=null;
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const lab=k=>ACC[k]||k;
+[['area',0],['candArea',1],['jobArea',0]].forEach(([id,o])=>{const s=$(id);[...s.options].slice(1).forEach(x=>x.remove());AREAS.forEach(a=>s.add(new Option(a,a)));if(o)s.add(new Option('Outra área','Outra área'))});
+[['accChips','facc'],['jobAccChips','jacc']].forEach(([id,n])=>{$(id).insertAdjacentHTML('beforeend',Object.entries(ACC).map(([k,v])=>`<label class="chip"><input type="checkbox" name="${n}" value="${k}"><span>${v}</span></label>`).join(''))});
+function saveCustom(){store.set('it_jobs',jobsData.filter(j=>j.custom))}
+function saveSaved(){store.set('it_saved',[...saved]);const b=$('savedBtn');b.textContent='♡ Vagas salvas ('+saved.size+')';b.setAttribute('aria-pressed',onlySaved)}
+function match(j){const c=j.cargo||'Outro',o=f.other.toLocaleLowerCase('pt-BR');return(!f.cargo||c===f.cargo)&&(f.cargo!=='Outro'||!o||(j.title+' '+j.company).toLocaleLowerCase('pt-BR').includes(o))&&(!f.area||j.area===f.area)&&(!f.model||j.model===f.model)&&[...f.acc].every(k=>j.access.includes(k))&&(!onlySaved||saved.has(j.id))}
+const card=j=>`<article class="job"><div class="jobtop"><div class="companyicon" aria-hidden="true">${esc(j.company[0].toUpperCase())}</div><div><h3>${esc(j.title)}</h3><div class="company">${esc(j.company)}</div></div></div><div class="tags"><span class="tag">${esc(j.area)}</span><span class="tag">${esc(j.model)}</span><span class="tag">${esc(j.type)}</span></div><p>${esc(j.desc)}</p><strong style="font-size:.86rem;color:#304b63">Acessibilidade informada</strong><div class="tags">${j.access.map(a=>`<span class="tag access${f.acc.has(a)?' hit':''}">${esc(lab(a))}</span>`).join('')}</div><div class="jobfoot"><button class="btn secondary" type="button" data-details="${j.id}">Ver detalhes</button><button class="btn primary" type="button" data-apply="${j.id}">Tenho interesse</button><button class="btn secondary" type="button" data-save="${j.id}" aria-pressed="${saved.has(j.id)}">${saved.has(j.id)?'♥ Salva':'♡ Salvar'}</button>${j.custom?`<button class="btn secondary" type="button" data-del="${j.id}">Remover</button>`:''}</div></article>`;
+function render(){
+ const list=jobsData.filter(match),n=list.length;
+ const parts=[f.area,f.cargo==='Outro'?'Outro cargo'+(f.other?' “'+f.other+'”':''):f.cargo,f.model,...[...f.acc].map(lab),onlySaved&&'Só salvas'].filter(Boolean);
+ $('count').textContent=`${n} ${n===1?'vaga combina':'vagas combinam'} com sua busca`;
+ $('seeBtn').textContent=`Ver ${n} ${n===1?'vaga':'vagas'} ↓`;
+ $('summary').textContent=parts.length?'Filtros ativos: '+parts.join(' • '):'Nenhum filtro ativo: mostrando todas as vagas de demonstração.';
+ $('jobs').innerHTML=n?list.map(card).join(''):'<div class="empty"><strong>Nenhuma vaga combina com esses filtros ainda.</strong><br>Tente “Todos os cargos” na mesma área, remova algum recurso de acessibilidade ou limpe os filtros.</div>';
+}
+function clearAll(){f.cargo=f.other=f.area=f.model='';f.acc.clear();onlySaved=false;$('otherQ').value='';$('otherWrap').classList.add('hidden');$('area').value='';fillCargo();$('modelo').value='';$('accChips').querySelectorAll('input').forEach(i=>i.checked=false);saveSaved();render()}
+$('otherQ').addEventListener('input',e=>{f.other=e.target.value.trim();render()});
+function fillCargo(){const sel=$('cargo'),cur=f.cargo,ar=f.area?[f.area]:AREAS;sel.innerHTML='<option value="">Todos os cargos</option>'+ar.map(a=>`<optgroup label="${a}">${CARGOS[a].map(c=>`<option>${c}</option>`).join('')}</optgroup>`).join('')+'<option value="Outro">Outro (não está na lista)</option>';sel.value=[...sel.options].some(o=>o.value===cur)?cur:'';f.cargo=sel.value}
+$('area').onchange=e=>{f.area=e.target.value;fillCargo();render()};
+$('cargo').onchange=e=>{f.cargo=e.target.value;const o=f.cargo==='Outro';$('otherWrap').classList.toggle('hidden',!o);if(!o){f.other='';$('otherQ').value=''}render()};
+$('modelo').onchange=e=>{f.model=e.target.value;render()};
+$('accChips').addEventListener('change',e=>{e.target.checked?f.acc.add(e.target.value):f.acc.delete(e.target.value);render()});
+document.querySelectorAll('[data-clear]').forEach(b=>b.onclick=clearAll);
+$('savedBtn').onclick=()=>{onlySaved=!onlySaved;saveSaved();render()};
+function showStatus(id,m){const el=$(id);el.textContent=m;el.classList.add('show')}
+function openModal(m){lastFocus=document.activeElement;openM=m;m.classList.add('open');document.body.style.overflow='hidden';m.querySelector('.close').focus()}
+function closeModal(){if(!openM)return;openM.classList.remove('open');openM=null;document.body.style.overflow='';if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{if(e.target===m||e.target.closest('.close'))closeModal()}));
+document.addEventListener('keydown',e=>{if(!openM)return;if(e.key==='Escape'){closeModal();return}if(e.key!=='Tab')return;const l=[...openM.querySelectorAll('button,a[href],input')],a=l[0],z=l[l.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}});
+function openJob(id){const j=jobsData.find(x=>x.id===Number(id));if(!j)return;$('modalTitle').textContent=j.title;$('modalBody').innerHTML=`<p><strong>Empresa:</strong> ${esc(j.company)}<br><strong>Área:</strong> ${esc(j.area)}<br><strong>Modalidade:</strong> ${esc(j.model)}</p><p>${esc(j.desc)}</p><p><strong>Informações de acessibilidade:</strong><br>${j.access.map(a=>esc(lab(a))).join(' • ')}</p><p class="notice">Esta é uma vaga de demonstração. Os recursos indicados não foram verificados por uma empresa real.</p>`;$('interestLink').onclick=()=>{closeModal();showStatus('candidateStatus',`Interesse demonstrativo: ${j.title}. Como este é um protótipo, nenhum dado foi enviado a uma empresa.`)};openModal($('applyModal'))}
+$('jobs').addEventListener('click',e=>{const t=e.target.closest('button');if(!t)return;const d=t.dataset;
+ if(d.details||d.apply)openJob(d.details||d.apply);
+ if(d.save){const id=Number(d.save);saved.has(id)?saved.delete(id):saved.add(id);saveSaved();render();const nb=$('jobs').querySelector('[data-save="'+id+'"]');if(nb)nb.focus()}
+ if(d.del&&(t.dataset.arm||(t.dataset.arm='1',t.textContent='Confirmar remoção',false))){const id=Number(d.del);jobsData.splice(jobsData.findIndex(j=>j.id===id),1);saved.delete(id);saveCustom();saveSaved();render()}});
+document.querySelectorAll('.js-login').forEach(b=>b.onclick=()=>openModal($('loginModal')));
+document.querySelectorAll('.js-start').forEach(a=>a.addEventListener('click',()=>setTimeout(()=>$('area').focus({preventScroll:true}),500)));
+const _a='YWRtaW5AaW5jbHVpdHJhYmFsaG8uY29t',_p='b2JyaWdhZG8=',b64=x=>{try{return btoa(x)}catch(_){return ''}};
+function confetti(){if(nm||matchMedia('(prefers-reduced-motion:reduce)').matches)return;const c=['#2487d8','#f5be42','#087f6e','#fff','#d9486a'];for(let i=0;i<60;i++){const p=document.createElement('span');p.className='confetti';p.setAttribute('aria-hidden','true');p.style.cssText=`left:${Math.random()*100}vw;background:${c[i%5]};animation-duration:${2.5+Math.random()*2.5}s;animation-delay:${Math.random()*1.2}s`;document.body.appendChild(p);setTimeout(()=>p.remove(),7500)}}
+$('creditsFooter').innerHTML=CREDITS.team.map(n=>`<li><strong>${esc(n)}</strong></li>`).join('');
+$('creditsFinale').innerHTML=CREDITS.team.map((n,i)=>`<div style="--i:${i+6}"><strong>${esc(n)}</strong></div>`).join('');
+$('finBack').onclick=closeModal;
+$('loginForm').addEventListener('submit',e=>{e.preventDefault();const em=$('loginEmail').value.trim().toLowerCase(),pw=$('loginPass').value.trim().toLowerCase();
+if((em==='admin'||b64(em)===_a)&&b64(pw)===_p){e.target.reset();$('loginStatus').classList.remove('show');closeModal();openModal($('finale'));confetti();return}
+if(!/^\S+@\S+\.\S+$/.test(em)){showStatus('loginStatus','Digite um e-mail válido.');return}
+e.target.reset();showStatus('loginStatus',`Login demonstrativo para ${em}. Nenhum dado foi enviado ou salvo.`)});
+$('candidateForm').addEventListener('submit',e=>{e.preventDefault();showStatus('candidateStatus',`Obrigado, ${$('candName').value.trim()}! Seu formulário de demonstração foi preenchido para a área ${$('candArea').value}. Os dados não foram enviados nem salvos em um servidor.`);e.target.reset()});
+$('jobForm').addEventListener('submit',e=>{e.preventDefault();const fd=new FormData(e.target),acc=fd.getAll('jacc'),cg=fd.get('title');if(!acc.length){showStatus('jobStatus','Selecione pelo menos um recurso de acessibilidade.');return}
+ if(cg==='Outro'&&!$('jobOther').value.trim()){showStatus('jobStatus','Digite o nome do cargo.');return}
+ const j={id:Date.now(),title:cg==='Outro'?$('jobOther').value.trim():cg,cargo:cg,company:fd.get('company').trim(),area:fd.get('area'),model:fd.get('model'),access:acc,desc:fd.get('description').trim(),type:'Cadastrada por você',custom:true};
+ jobsData.unshift(j);saveCustom();render();showStatus('jobStatus',`A vaga “${j.title}” foi adicionada e salva neste navegador. Ela aparece na lista de vagas no fim da página.`);e.target.reset();$('jobOtherWrap').classList.add('hidden')});
+let fs=store.get('it_fs',100),hc=store.get('it_hc',false),nm=store.get('it_nm',false),th=store.get('it_th',null);if(th===null)th=matchMedia('(prefers-color-scheme: dark)').matches;
+function applyPrefs(){document.documentElement.style.setProperty('--fs',fs+'%');document.documentElement.classList.toggle('dark',th);$('thBtn').setAttribute('aria-pressed',th);document.body.classList.toggle('hc',hc);document.body.classList.toggle('nomotion',nm);$('hcBtn').setAttribute('aria-pressed',hc);$('nmBtn').setAttribute('aria-pressed',nm);store.set('it_fs',fs);store.set('it_hc',hc);store.set('it_nm',nm)}
+$('fsDown').onclick=()=>{fs=Math.max(90,fs-10);applyPrefs()};
+$('fsUp').onclick=()=>{fs=Math.min(140,fs+10);applyPrefs()};
+$('hcBtn').onclick=()=>{hc=!hc;applyPrefs()};
+$('nmBtn').onclick=()=>{nm=!nm;applyPrefs()};
+$('thBtn').onclick=()=>{th=!th;store.set('it_th',th);applyPrefs()};
+$('jobTitle').innerHTML='<option value="">Selecione o cargo</option>'+AREAS.map(a=>`<optgroup label="${a}">${CARGOS[a].map(c=>`<option>${c}</option>`).join('')}</optgroup>`).join('')+'<option value="Outro">Outro (digitar)</option>';
+$('jobTitle').onchange=e=>{const v=e.target.value;$('jobOtherWrap').classList.toggle('hidden',v!=='Outro');const a=AREAS.find(x=>CARGOS[x].includes(v));if(a)$('jobArea').value=a};
+applyPrefs();saveSaved();fillCargo();render();
+</script>
+</body>
+</html>
